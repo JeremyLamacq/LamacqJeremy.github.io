@@ -28,13 +28,14 @@
 
 #body__header__section1__div1__h1 {
     font-size: 28px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     text-shadow: 0px 0.5px #333333;
 }
 
 #body__header__section1__div1__h3 {
     font-size: 18px;
-    margin: 8px 0px;
+    margin: 0px 0px 8px 0px ;
     border-bottom: 2px solid rgb(27, 70, 121);
     text-shadow: 0px 0.5px #333333;
 }
@@ -63,10 +64,12 @@
 
 #body__header__section1__div2__img {
     width: 100%;
+    /* width: 75%; */
     border-radius: 100%;
     border: 3px solid rgb(27, 70, 121);
     margin: 8px;
     margin-top: 15px;
+    /* margin-top: 2px; */
 
 }
 
@@ -93,7 +96,7 @@
 }
 
 .body__header__section2__div3__ul__li{
-    width: 25%;
+    width: 20%;
     padding-bottom: 2px;
     list-style-type: none;
     text-align: center;
@@ -110,6 +113,10 @@
 
 #body__header__section2__div3__ul__li6{
     padding-top: 2px;
+}
+
+#body__header__section2__div3__ul__li8{
+    padding-top: 1px;
 }
 
 #body__main__section1 {
@@ -220,11 +227,11 @@
 }
 
 #body__main__section3__h3__2{
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 #body__main__section3__h3__3{
-    margin-top: 26px;
+    margin-top: 12px;
 }
 
 .body__main__section3__p {
@@ -237,12 +244,7 @@
 .body__main__section3__a {
     font-size: 13px;
     color: black;
-    padding-left: 2px;
-}
-.body__main__section3__a:hover {
-    font-size: 15px;
-    color: white;
-    padding-left: 2px;
+    margin-left: 18px;
 }
 
 .body__main__section3__div__h4 {
