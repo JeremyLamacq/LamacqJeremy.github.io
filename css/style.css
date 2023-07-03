@@ -96,7 +96,7 @@
 }
 
 .body__header__section2__div3__ul__li{
-    width: 20%;
+    width: calc(100%/6);
     padding-bottom: 2px;
     list-style-type: none;
     text-align: center;
@@ -111,11 +111,19 @@
     display: flex;
 }
 
-#body__header__section2__div3__ul__li6{
+#body__header__section2__div3__ul__li3{
     padding-top: 2px;
 }
 
-#body__header__section2__div3__ul__li8{
+#body__header__section2__div3__ul__li5{
+    padding-top: 1px;
+}
+
+#body__header__section2__div3__ul__li7{
+    padding-top: 2px;
+}
+
+#body__header__section2__div3__ul__li9{
     padding-top: 1px;
 }
 
